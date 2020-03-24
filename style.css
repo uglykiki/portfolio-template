@@ -36,6 +36,10 @@ footer {
   clear: both;
 }
 
+.img-link img:hover {
+  opacity: 0.5;
+}
+
 .project {
   width: 80%;
   margin: 0 auto;

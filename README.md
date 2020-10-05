@@ -1,4 +1,2 @@
 # portfolio-template
-
-
-this is a template for my students 
+Portfolio template for my ART75 students. 

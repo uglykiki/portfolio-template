@@ -62,17 +62,41 @@ footer {
   float: right;
   padding-right: 4px;
 }
-.artist-statement {
+.container {
   width: 60%;
   margin: 0px auto;
   padding: 48px 0px;
+}
+form {
+  width: 50%;
+  margin: 0px auto;
+}
+label,
+input,
+textarea,
+input[type="submit"] {
+  width: 100%;
+  padding: 12px 0px;
+}
+input,
+textarea {
+  margin: 8px 0px 16px 0px;
+}
+input[type="submit"] {
+  background-color: white;
+  border: solid black 2px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: black;
+  color: white;
 }
 
 @media only screen and (max-width: 769px) {
   .project {
     width: 88%;
   }
-  .artist-statement {
+  .container {
     width: 88%;
   }
 }
@@ -87,7 +111,7 @@ footer {
   .artwork {
     width: 100%;
   }
-  .artist-statement {
+  .container {
     width: 90%;
   }
 }

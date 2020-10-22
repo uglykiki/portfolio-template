@@ -8,25 +8,30 @@
 </head>
 
 <body>
-    <h1 class="title"> Your Name</h1><!-- Change your title -->
-    <!-- navigation -->
+    <h1 class="title"> Your Name</h1> <!-- Change your title -->
     <nav>
         <a href="index.html">Home</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="statement.html">Artist Statement</a>
         <a href="contact.html">Contact</a>
     </nav>
-    <img class="feature-img" src="img/1911121532.png"> <!-- Change your image -->
-
-    <video class="feature-video" autoplay loop controls>
-        <source src="video/mothership.mp4" type="video/mp4"> <!-- Change your video -->
-    </video>
+    <div class="container">
+        <form action="https://formspree.io/f/mzbkrver" method="POST">
+            <label for="name">Name</label>
+            <input type="text" name="name">
+            <label for="email">E-mail</label>
+            <input type="email" name="_replyto">
+            <label for="lname">Message</label>
+            <textarea name="message"></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
 
     <!-- footer -->
     <footer>
         copyright © 2020
     </footer>
-
 </body>
 
 </html>
